@@ -12,7 +12,7 @@ function wangy(nama) {
 	document.getElementById("isi").select();document.execCommand("copy");
 }
 $('#btn-nama').click(function () {
-	if (nama=='') {
+	if (document.getElementById("nama").value=='') {
 		alert('Isi Dulu Namanya');
 	} else {
 		wangy(nama);
